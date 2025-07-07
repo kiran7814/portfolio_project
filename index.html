@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiran | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#"><b><span>K</span>iran</b></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi,I'm <span>Kiran</span></h1>
+                <h3>My Personal Portfolio</h3>
+                <p> Hey this is my portfolio where you can see my educational and personal details.</p>
+                <a href="#portfolio" class="btn">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/dev_illustration.png" alt="Developer illustration">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+  <section id="about">
+  <div class="container about-content">
+
+   <div class="profile-container">
+ 
+  <img src="images/profile.jpg" alt="Profile Image" class="profile-image" />
+</div>
+
+
+    <div class="about-text">
+      <h3>About Me</h3>
+      <p>I'm currently a B.Tech student in Computer Science at Punjabi University Patiala. I previously completed my diploma from Thapar Polytechnic in the same field. My journey has been all about learning, growing, and building real-world tech solutions.</p>
+      <p>I specialize in C++, Data Structures, and web development, and I love tackling algorithmic challenges. I'm also exploring frontend development using React and backend using Node.js.</p>
+      <p>Beyond tech, I'm passionate about innovation, teamwork, and continuous self-improvement. Outside the screen, I enjoy chess, YouTube learning, and music.</p>
+
+      <div class="skills">
+        <h4>Skills:</h4>
+        <div class="skill-tags">
+          <span>C++</span>
+          <span>Data Structures</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Python</span>
+          <span>MySQL</span>
+        </div>
+      </div>
+
+      <a href="images/cv.pdf" class="btn" target="_blank">Download CV</a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Services Section -->
+     <section class="services lavender-bg"></section>
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">My <span>Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom website development tailored to your specific needs and business requirements.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that look great and function perfectly on all devices and screen sizes.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design approach that focuses on usability and aesthetic appeal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My <span>Portfolio</span></h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce Website</h3>
+                        <p>Web Development</p>
+                        <a href="file:///C:/Users/Pc/OneDrive/Desktop/portfolio_project/index.html" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="images/project2.png" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Mobile App UI</h3>
+                        <p>App Design</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="images/project3.png" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Graphic Design</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Add more portfolio items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>tripurikiran@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 7814241198</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Patiala Punjab </p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/kiran7814"><i class="fab fa-github"></i></a>
+                        <a href="https://leetcode.com/u/kiran1311/"><i><img src="images/leetcode.png" alt=""></i></a>
+                        <a href="https://www.linkedin.com/in/kiran-kiran-47a185350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=kus3v2w"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+   <form class="contact-form" action="/contact" method="POST">
+    <h2>Contact Us</h2>
+    <input name="name" placeholder="Your name" required>
+    <input name="email" type="email" placeholder="Your email" required>
+    <textarea name="message" rows="5" placeholder="Your message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 kiran. All Rights Reserved.</p>
+            <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
